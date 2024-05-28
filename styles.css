@@ -1,21 +1,17 @@
-/*  your css code here. If applicable */
-#container {
-  margin: 20px;
-  position: relative;
-}
+<!DOCTYPE html>
 
-#container:before,
-#container:after {
-  content: "Before";
-  color: #f00;
-  font-size: 20px;
-  position: absolute;
-}
+<html>
 
-#container:before {
-  left: -50px;
-}
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
 
-#container:after {
-  right: -50px;
-}
+<body>
+	<!-- the entire body must be written by student -->
+	<div id="container">This is the main container element</div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
